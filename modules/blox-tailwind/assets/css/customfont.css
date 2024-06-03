@@ -1,0 +1,24 @@
+// 定义英文字体  
+@font-face {  
+  font-family: 'MyEnglishFont';  
+  src: url('../modules/blox-tailwind/assets/dist/font/garamondpremrpro-smbd-webfont.woff2') format('woff2'),  
+  font-weight: normal;  
+  font-style: normal;  
+}  
+  
+// 定义中文字体  
+@font-face {  
+  font-family: 'MyChineseFont';  
+  src: url('../modules/blox-tailwind/assets/dist/font/a-otf-kyokaicapro-regular-webfont.woff2') format('woff2'),  
+  font-weight: normal;  
+  font-style: normal;  
+}  
+  
+// 应用字体到全局样式  
+body {  
+  font-family: 'MyEnglishFont', sans-serif;  
+}  
+  
+.chinese-content {  
+  font-family: 'MyChineseFont', 'MyEnglishFont', sans-serif;  
+}
